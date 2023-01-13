@@ -93,18 +93,15 @@ Blood Bank Donation System is a php based web project with both admin and user l
    5.Donor List Page
    <img src="https://user-images.githubusercontent.com/109609462/212375756-d51c85b7-b335-40f8-b4a3-031e7fb4baab.png">
    <br><br>
-   6.Check Contact Us Query Page
-   <img src="https://user-images.githubusercontent.com/54537819/96366120-1c599700-1163-11eb-9fa4-55355192d1b8.png">
-   <br><br>
-   7.Manage Page Data
+   6.Manage Page Data
    <img src="https://user-images.githubusercontent.com/109609462/212376160-77bd781d-7261-49b5-9291-266b56fae8dc.png">
    <br>
    <br>
-   8.Update Page Details
-   <img src="https://user-images.githubusercontent.com/54537819/96366183-938f2b00-1163-11eb-8f3a-4cb90e877c11.png">
+   7.Update Page Details
+   <img src="https://user-images.githubusercontent.com/109609462/212378380-4a435b22-7830-4df1-bf0e-4e94d7964400.png">
    <br>
    <br>
-   9.Update Contact Info Page
+   8.Update Contact Info Page
    <img src="https://user-images.githubusercontent.com/109609462/212376500-357bbd13-e67e-4416-9a4d-ab4d0d3af343.png">
    
    
