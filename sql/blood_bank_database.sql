@@ -1,5 +1,5 @@
-//create database blood_donation; /* creating database*/
-//use blood_donation;
+/*create database blood_donation; /* creating database*/
+/*use blood_donation;
 
 /*create table donor_details in which all donor information gets stored.*/
 create table donor_details(
