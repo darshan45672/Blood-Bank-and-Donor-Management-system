@@ -54,7 +54,7 @@
 </head>
 <body>
 <div class="news blue">
-<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to be organised in A J Institute of Engineering and Technology By Darshan Bhandary in collabration with Blood Bank& Donation Management System on <b>16/01/2023 at Seminar Hall 3.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
+<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to b organised in A J Institute of Engineering and Technology By Darshan Bhandary in collabration with Blood Bank& Donation Management System on <b>16/01/2023 at Seminar Hall 3.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
 </div>
 </body>
 </head>
