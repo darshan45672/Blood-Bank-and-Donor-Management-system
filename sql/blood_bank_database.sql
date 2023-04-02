@@ -162,6 +162,7 @@ insert into contact_query (query_name,query_mail,query_number,query_message) val
 ("Anuj","anuj@gmail.com","9923471025","I need O+ Blood.");
 
 update contact_query set query_status="1" where query_id="1";
+
 /*create table query_stat in which query status is stored.*/
 CREATE TABLE query_stat(
   id INT NOT NULL Unique,
