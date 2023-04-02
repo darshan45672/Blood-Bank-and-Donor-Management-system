@@ -2,6 +2,7 @@
 /*use blood_donation;
 
 /*create table donor_details in which all donor information gets stored.*/
+
 create table donor_details(
 donor_id int auto_increment NOT NULL,
 donor_name varchar(50) NOT NULL,
@@ -12,8 +13,11 @@ donor_gender varchar(10) NOT NULL,
 donor_blood varchar(10) NOT NULL,
 donor_address varchar(100) NOT NULL,
 Primary key(donor_id)
+
 );
+
 /*create table admin_info in which all admin information gets stored.*/
+
 create table admin_info(
 admin_id int(10) NOT NULL UNIQUE AUTO_INCREMENT,
 admin_name varchar(50) NOT NULL,
@@ -23,10 +27,12 @@ Primary key(admin_id)
 );
 
 /*  insert admin data into admin_info table*/
+
 insert into admin_info(admin_name,admin_username,admin_password)
 values("Darshan","DarshanBhandary",12345);
 
 /*create table blood in which all blood group is stored.*/
+
 create table blood(
 blood_id int auto_increment Not Null,
 blood_group varchar(10) NOT NULL,
@@ -34,11 +40,13 @@ primary key(blood_id)
 );
 
 /* insert all blood groups*/
+
 insert into blood(blood_group)
 values("B+"),("B-"),("A+"),("O+"),("O-"),("A-"),("AB+"),("AB-");
 
 
 /*create table pages in which all pages information gets stored.*/
+
 create table pages(
 page_id int NOT NULL auto_increment UNIQUE,
 page_name varchar(255) NOT NULL,
@@ -49,6 +57,7 @@ ALTER TABLE pages
 MODIFY COLUMN page_type varchar(50) UNIQUE;
 
 /*create table contact_info in which your site contact information is stored.*/
+
 create table contact_info(
 contact_id int auto_increment Not Null,
 contact_address varchar(100) NOT NULL,
@@ -133,7 +142,8 @@ set page_data='<span style="color: rgb(0, 0, 0); font-family: &quot;Open Sans&qu
     where page_type="donor";
     
     
-    /*create table contact_query in which all querier inforamation gets stored.*/
+/*create table contact_query in which all querier inforamation gets stored.*/
+
 create table contact_query(
 query_id int auto_increment Not Null,
 query_name varchar(100) NOT NULL,
@@ -152,7 +162,6 @@ insert into contact_query (query_name,query_mail,query_number,query_message) val
 ("Anuj","anuj@gmail.com","9923471025","I need O+ Blood.");
 
 update contact_query set query_status="1" where query_id="1";
-
 /*create table query_stat in which query status is stored.*/
 CREATE TABLE query_stat(
   id INT NOT NULL Unique,
