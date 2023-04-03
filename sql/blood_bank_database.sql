@@ -52,7 +52,6 @@ page_name varchar(255) NOT NULL,
 page_type varchar(255) NOT NULL,
 page_data longtext NOT NULL
 );
-
 ALTER TABLE pages
 MODIFY COLUMN page_type varchar(50) UNIQUE;
 
