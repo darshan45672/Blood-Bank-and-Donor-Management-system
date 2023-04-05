@@ -58,6 +58,7 @@ MODIFY COLUMN page_type varchar(50) UNIQUE;
 
 /*create table contact_info in which your site contact information is stored.*/
 
+
 create table contact_info(
 contact_id int auto_increment Not Null,
 contact_address varchar(100) NOT NULL,
